@@ -1,0 +1,25 @@
+.Bio {
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+.Bio h1 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: 1rem;
+    position: absolute;
+    width: 100%
+}
+
+.Bio p {
+    bottom: 1.5rem;
+    left: 0;
+    margin: auto;
+    padding: 2rem 3rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}

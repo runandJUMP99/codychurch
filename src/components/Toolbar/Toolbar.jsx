@@ -4,10 +4,10 @@ import Links from "./Links/Links";
 
 import classes from "./Toolbar.module.css";
 
-const Toolbar = () => {
+const Toolbar = (props) => {
     return (
         <div className={classes.Toolbar}>
-            <Links />
+            <Links onClick={props.onClick}/>
         </div>
     );
 };

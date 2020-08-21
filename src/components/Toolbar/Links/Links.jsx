@@ -4,12 +4,12 @@ import Link from "./Link/Link";
 
 import classes from "./Links.module.css";
 
-const Links = () => {
+const Links = (props) => {
     return (
         <ul className={classes.Links}>
-            <li><Link name="Home"/></li>
-            <li><Link name="Music" /></li>
-            <li><Link name="Bio" /></li>
+            <Link onClick={props.onClick} name="Home"/>
+            <Link onClick={props.onClick} name="Music" />
+            <Link onClick={props.onClick} name="Bio" />
         </ul>
     );
 };

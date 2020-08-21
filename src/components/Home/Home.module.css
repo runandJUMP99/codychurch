@@ -1,18 +1,11 @@
-.Jumbotron {
-    background: black;
-    height: 100vh;
-    padding: 0;
-}
-
-.Jumbotron video {
+.Home video {
     height: 100%;
     position: absolute;
     width: 100%;
 }
 
-.Jumbotron h1 {
+.Home h1 {
     align-items: center;
-    color: #ddd;
     display: flex;
     font-size: 1.2rem;
     height: 100%;
@@ -23,11 +16,27 @@
     width: 100%;
 }
 
-.Jumbotron span {
+.Home span {
     animation: smoke 1s linear forwards;
     display: inline-block;
     justify-self: center;
+    letter-spacing: 1rem;
     opacity: 0;
+}
+
+.Home p {
+    animation: appear 1s linear 5s forwards;
+    bottom: 1.5rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.8rem;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    padding: 2rem 3rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 50%;
 }
 
 .FirstName {
@@ -76,10 +85,11 @@
 
 .LastName span:nth-child(6) {
     animation-delay: 4.1s;
+    letter-spacing: 0;
 }
 
 @media (min-width: 560px) {
-    .Jumbotron h1 {
+    .Home h1 {
         font-size:2rem;
         letter-spacing: 1.5rem;
     }
@@ -94,7 +104,7 @@
 }
 
 @media (min-width: 940px) {
-    .Jumbotron h1 {
+    .Home h1 {
         font-size: 5rem;
         letter-spacing: 2rem;
     }
@@ -119,5 +129,17 @@
         filter: blur(0);
         opacity: 1;
         transform: rotateY(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        filter: blur(16px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
     }
 }
