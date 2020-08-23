@@ -1,6 +1,8 @@
 .Bio {
-    height: 100%;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
     width: 100%
 }
 
@@ -10,6 +12,7 @@
     height: 100%;
     justify-content: center;
     letter-spacing: 1rem;
+    margin: 0;
     position: absolute;
     width: 100%
 }
@@ -22,4 +25,8 @@
     position: absolute;
     right: 0;
     text-align: center;
+}
+
+.LastSpan {
+    letter-spacing: 0;
 }

@@ -1,3 +1,7 @@
+.Home {
+    height: 100vh;
+}
+
 .Home video {
     height: 100%;
     position: absolute;
@@ -36,7 +40,7 @@
     position: absolute;
     right: 0;
     text-align: center;
-    width: 50%;
+    width: 40%;
 }
 
 .FirstName {

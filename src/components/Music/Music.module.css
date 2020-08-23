@@ -1,25 +1,101 @@
 .Music {
-    height: 100%;
-    position: absolute;
+    align-items: center;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: auto;
+    max-width: 800px;
     width: 100%
 }
 
 .Music h1 {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
     letter-spacing: 1rem;
-    position: absolute;
+    margin: 0;
+    padding: 5rem 0 2rem;
     width: 100%
 }
 
-.Music p {
-    bottom: 1.5rem;
+.LastSpan {
+    letter-spacing: 0;
+}
+
+.MusicBody {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 60%;
+    justify-content: space-around;
+}
+
+.SoundCloudWidgetLinks {
+    color: #cccccc;
+    font-family: "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif";
+    font-size: 10px;
+    font-weight: 100;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis; 
+    word-break: normal;
+    white-space: nowrap;
+}
+
+.SoundCloudWidgetLinks a {
+    color: #cccccc; 
+    margin: 0 0.25rem;
+    text-decoration: none;
+}
+
+.SoundCloudWidgetLinks a:hover {
+    color: white;
+}
+
+.MusicBody p {
+    line-height: 2;
+    text-align: center;;
+    width: 300px;
+}
+
+
+.SocialLinks {
+    bottom: 2%;
+    border-top: 1px solid #ddd;
+    font-size: 1.5rem;
     left: 0;
-    margin: auto;
+    margin: 1rem auto;
     padding: 2rem 3rem;
-    position: absolute;
     right: 0;
     text-align: center;
+    width: 40%;
+}
+
+.SocialLinks a {
+    color: #ddd;
+    margin: 0 0.5rem;
+}
+
+.SocialLinks a:hover {
+    color: white;
+}
+
+@media (min-width: 550px) {
+    .MusicBody {
+        flex-direction: row;
+        height: initial;
+    }
+
+    .MusicBody p {
+        text-align: right;
+        width: 40%;
+    }
+}
+
+@media (max-height: 500px) {
+    .Music {
+        height: 100%;
+    }
 }

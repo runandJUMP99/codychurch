@@ -8,7 +8,7 @@ const Bio = () => {
             <h1>
                 <span>B</span>
                 <span>I</span>
-                <span>O</span>
+                <span className={classes.LastSpan}>O</span>
             </h1>
             <p>Coming Soon</p>
         </div>
