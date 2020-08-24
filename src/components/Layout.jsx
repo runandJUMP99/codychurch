@@ -8,7 +8,7 @@ import Toolbar from "./Toolbar/Toolbar";
 import classes from "./Layout.module.css";
 
 const Layout = () => {
-    const [content, setContent] = useState(<Bio />);
+    const [content, setContent] = useState(<Home />);
     const [fade, setFade] = useState(false);
 
     function handleClick(link) {
