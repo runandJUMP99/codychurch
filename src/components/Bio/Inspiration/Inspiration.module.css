@@ -4,17 +4,18 @@
     flex-direction: column;
     grid-column: 1;
     grid-row: 1;
-    height: 60%;
     justify-content: space-evenly;
+    margin: auto;
     max-width: 800px;
-    transition: all 0.5 ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .Inspiration img {
     align-self: flex-end;
     background: rgb(34, 34, 34);
     border-radius: 50% 0 0 0;
-    height: 50%;
+    height: 5rem;
+    margin-top: 1rem;
     text-align: right;
     width: 300px;
 }
@@ -22,6 +23,7 @@
 .InspirationText {
     box-shadow: -2px -2px 0 2px rgba(255, 255, 255, 0.2);
     line-height: 2;
+    margin-bottom: 1rem;
     padding: 0 1rem;
     width: 300px;
 }

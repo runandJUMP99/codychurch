@@ -8,9 +8,9 @@ import classes from "./Bio.module.css";
 
 const Bio = () => {
     const [styles, setStyles] = useState({
-        hello: {transform: "rotateY(0) translateX(0)"},
-        inspiration: {transform: "rotateY(90deg) translateX(100%)"},
-        contact: {transform: "rotateY(-90deg) translateX(-100%)"}
+        hello: {opacity: 1, transform: "rotateY(0) translateX(0)"},
+        inspiration: {opacity: 0, transform: "rotateY(90deg) translateX(100%)"},
+        contact: {opacity: 0, transform: "rotateY(-90deg) translateX(-100%)"}
     });
     const [block, setBlock] = useState("left");
 

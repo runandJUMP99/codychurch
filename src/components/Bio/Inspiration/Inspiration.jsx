@@ -9,7 +9,7 @@ const Inspiration = (props) => {
                 <h2>Inspiration</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet lectus non enim pellentesque sollicitudin.</p>
             </div>
-            <img src="" alt="Hello Img"/>
+            <img src="" alt="Inspiration Img"/>
         </div>
     );
 };
