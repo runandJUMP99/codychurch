@@ -1,0 +1,38 @@
+.Inspiration {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+    height: 60%;
+    justify-content: space-evenly;
+    max-width: 800px;
+    transition: all 0.5 ease-in-out;
+}
+
+.Inspiration img {
+    align-self: flex-end;
+    background: rgb(34, 34, 34);
+    border-radius: 50% 0 0 0;
+    height: 50%;
+    text-align: right;
+    width: 300px;
+}
+
+.InspirationText {
+    box-shadow: -2px -2px 0 2px rgba(255, 255, 255, 0.2);
+    line-height: 2;
+    padding: 0 1rem;
+    width: 300px;
+}
+
+@media (min-width: 550px) {
+    .Inspiration {
+        flex-direction: row;
+        height: initial;
+    }
+
+    .InspirationText {
+        width: 40%;
+    }
+}

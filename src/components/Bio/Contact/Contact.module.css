@@ -1,0 +1,38 @@
+.Contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+    height: 60%;
+    justify-content: space-evenly;
+    max-width: 800px;
+    transition: all 0.5 ease-in-out;
+}
+
+.Contact img {
+    align-self: flex-start;
+    background: rgb(34, 34, 34);
+    border-radius: 0 0 50% 0;
+    height: 50%;
+    width: 300px;
+}
+
+.ContactText {
+    box-shadow: 2px 2px 0 2px rgba(255, 255, 255, 0.2);
+    line-height: 2;
+    text-align: right;
+    padding: 0 1rem;
+    width: 300px;
+}
+
+@media (min-width: 550px) {
+    .Contact {
+        flex-direction: row;
+        height: initial;
+    }
+
+    .ContactText {
+        width: 40%;
+    }
+}
