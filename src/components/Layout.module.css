@@ -1,6 +1,6 @@
 .Layout {
-    background: black;
-    color: #ddd;
+    background: #e5df88;
+    color: #4c4c4c;
     height: 100%;
     padding: 0;
 }
@@ -9,3 +9,9 @@
     height: 100%;
     transition: all 0.5s ease-out;
 }
+
+/* COLORS
+e5df88
+e8e8e8
+a37eba
+4c4c4c */

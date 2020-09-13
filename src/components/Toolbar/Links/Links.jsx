@@ -8,8 +8,8 @@ const Links = (props) => {
     return (
         <ul className={classes.Links}>
             <Link onClick={props.onClick} name="Home"/>
-            <Link onClick={props.onClick} name="Music" />
-            <Link onClick={props.onClick} name="Bio" />
+            <Link onClick={props.onClick} name="About Me" />
+            <Link onClick={props.onClick} name="Contact" />
         </ul>
     );
 };

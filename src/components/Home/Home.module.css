@@ -2,12 +2,6 @@
     height: 100vh;
 }
 
-.Home video {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-}
-
 .Home h1 {
     align-items: center;
     display: flex;
@@ -25,17 +19,27 @@
     display: inline-block;
     justify-self: center;
     letter-spacing: 1rem;
+    margin-bottom: 8rem;
     opacity: 0;
 }
 
+.Home img {
+    border-radius: 50%;
+    bottom: 10rem;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 15rem;
+    z-index: -1;
+}
+
 .Home p {
-    animation: appear 1s linear 5s forwards;
     bottom: 1.5rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #4c4c4c;
     font-size: 0.8rem;
     left: 0;
     margin: auto;
-    opacity: 0;
     padding: 2rem 3rem;
     position: absolute;
     right: 0;
@@ -51,44 +55,7 @@
     margin-left: 0.5rem;
 }
 
-.FirstName span:nth-child(1) {
-    animation-delay: 0.5s;
-}
-
-.FirstName span:nth-child(2) {
-    animation-delay: 0.9s;
-}
-
-.FirstName span:nth-child(3) {
-    animation-delay: 1.3s;
-}
-
-.FirstName span:nth-child(4) {
-    animation-delay: 1.7s;
-}
-
-.LastName span:nth-child(1) {
-    animation-delay: 2.1s;
-}
-
-.LastName span:nth-child(2) {
-    animation-delay: 2.5s;
-}
-
-.LastName span:nth-child(3) {
-    animation-delay: 2.9s;
-}
-
 .LastName span:nth-child(4) {
-    animation-delay: 3.3s;
-}
-
-.LastName span:nth-child(5) {
-    animation-delay: 3.7s;
-}
-
-.LastName span:nth-child(6) {
-    animation-delay: 4.1s;
     letter-spacing: 0;
 }
 

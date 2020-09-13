@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
-import Bio from "./Bio/Bio";
+import AboutMe from "./AboutMe/AboutMe";
+import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
-import Music from "./Music/Music";
 import Toolbar from "./Toolbar/Toolbar";
 
 import classes from "./Layout.module.css";
@@ -15,10 +15,10 @@ const Layout = () => {
         setFade(true);
 
         setTimeout(() => {
-            if (link === "Music") {
-                setContent(<Music />);
-            } else if (link === "Bio") {
-                setContent(<Bio />);
+            if (link === "About Me") {
+                setContent(<AboutMe />);
+            } else if (link === "Contact") {
+                setContent(<Contact />);
             } else {
                 setContent(<Home />);
             }

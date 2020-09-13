@@ -1,4 +1,4 @@
-.Bio {
+.Contact {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     width: 100%
 }
 
-.Bio h1 {
+.Contact h1 {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -21,14 +21,14 @@
     letter-spacing: 0;
 }
 
-.BioContent {
+.ContactContent {
     display: grid;
     margin: auto;
     width: 100%;
 }
 
-.BioNav {
-    border-top: 1px solid #ddd;
+.ContactNav {
+    border-top: 1px solid #4c4c4c;
     display: flex;
     font-size: 1.2rem;
     font-weight: 300;
@@ -40,18 +40,17 @@
     width: 40%;
 }
 
-.BioNav li {
-    color: #ddd;
+.ContactNav li {
     cursor: pointer;
     margin: 0 0.5rem;
 }
 
-.BioNav li:hover {
+.ContactNav li:hover {
     color: white;
 }
 
 @media (max-height: 500px) {
-    .Bio {
+    .Contact {
         height: 100%;
     }
 }

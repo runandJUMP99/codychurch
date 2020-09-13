@@ -1,6 +1,5 @@
-.Music {
+.AboutMe {
     align-items: center;
-    background: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +9,7 @@
     width: 100%
 }
 
-.Music h1 {
+.AboutMe h1 {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -24,7 +23,7 @@
     letter-spacing: 0;
 }
 
-.MusicBody {
+.AboutBody {
     align-items: center;
     display: flex;
     flex-direction: column-reverse;
@@ -32,29 +31,12 @@
     justify-content: space-evenly;
 }
 
-.SoundCloudWidgetLinks {
-    color: #cccccc;
-    font-family: "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif";
-    font-size: 10px;
-    font-weight: 100;
-    overflow: hidden;
-    text-align: center;
-    text-overflow: ellipsis; 
-    word-break: normal;
-    white-space: nowrap;
+.AboutBody img {
+    border-radius: 50%;
+    width: 40%;
 }
 
-.SoundCloudWidgetLinks a {
-    color: #cccccc; 
-    margin: 0 0.25rem;
-    text-decoration: none;
-}
-
-.SoundCloudWidgetLinks a:hover {
-    color: white;
-}
-
-.MusicBody p {
+.AboutBody p {
     line-height: 2;
     text-align: center;
     width: 300px;
@@ -63,7 +45,7 @@
 
 .SocialLinks {
     bottom: 2%;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #4c4c4c;
     font-size: 1.5rem;
     left: 0;
     margin: 1rem auto;
@@ -74,8 +56,9 @@
 }
 
 .SocialLinks a {
-    color: #ddd;
+    color: #4c4c4c;
     margin: 0 0.5rem;
+    text-decoration: none;
 }
 
 .SocialLinks a:hover {
@@ -83,19 +66,19 @@
 }
 
 @media (min-width: 550px) {
-    .MusicBody {
+    .AboutBody {
         flex-direction: row;
         height: initial;
     }
 
-    .MusicBody p {
+    .AboutBody p {
         text-align: right;
         width: 40%;
     }
 }
 
 @media (max-height: 500px) {
-    .Music {
+    .AboutMe {
         height: 100%;
     }
 }

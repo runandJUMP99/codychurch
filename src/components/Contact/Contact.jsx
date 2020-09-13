@@ -4,7 +4,7 @@ import Contact from "./Contact/Contact";
 import Hello from "./Hello/Hello";
 import Inspiration from "./Inspiration/Inspiration";
 
-import classes from "./Bio.module.css";
+import classes from "./Contact.module.css";
 
 const Bio = () => {
     const [styles, setStyles] = useState({
@@ -63,18 +63,22 @@ const Bio = () => {
     }
 
     return (
-        <div className={classes.Bio}>
+        <div className={classes.Contact}>
             <h1>
-                <span>B</span>
-                <span>I</span>
-                <span className={classes.LastSpan}>O</span>
+                <span>C</span>
+                <span>O</span>
+                <span>N</span>
+                <span>T</span>
+                <span>A</span>
+                <span>C</span>
+                <span className={classes.LastSpan}>T</span>
             </h1>
-            <div className={classes.BioContent}>
+            <div className={classes.ContactContent}>
                 <Hello styles={styles.hello} />
                 <Inspiration styles={styles.inspiration} />
                 <Contact styles={styles.contact} />
             </div>
-            <ul className={classes.BioNav}>
+            <ul className={classes.ContactNav}>
                 <li onClick={() => handleClick("Hello")}>Hello</li>
                 <li onClick={() => handleClick("Inspiration")}>Inspiration</li>
                 <li onClick={() => handleClick("Contact")}>Contact</li>
